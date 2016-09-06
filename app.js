@@ -71,8 +71,8 @@ app.use('/products', products);
 app.use('/add-to-cart', isLoggedIn, addToCart);
 //app.use('/pd/catagory', catagory);
 
-app.listen(8000);
-console.log('Listening on port 8000!');
+app.listen(3000);
+console.log('Listening on port 3000!');
 
 module.exports = app;
 
